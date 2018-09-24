@@ -1,0 +1,35 @@
+#grid
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+  "1"
+  "2"
+  "3"
+}
+#temat, form
+{
+  display: grid;
+  grid-template-columns: repeat(14, 1fr)
+}
+#rekordow
+{
+  grid-area:1;
+  text-align: center;
+}
+#f2
+{
+  grid-area: 2;
+}
+#menu
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-area: 3;
+}
+div
+{
+  border: 1px black solid;
+}
